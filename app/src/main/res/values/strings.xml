@@ -1,0 +1,7 @@
+<resources>
+    <string name="bienvenida">Bienvenido!! Introduce tu nombre para ser el protagonista de los cuentos</string>
+    <string name="primerboton">Empezar!!!</string>
+    <string name="primerHint">Introduce aquí tu nombre</string>
+    <string name="app_name">MicroCuentos</string>
+    <string name="nombreVacio">Introduce un nombre</string>
+</resources>
