@@ -21,10 +21,9 @@ EditText nombre;
         if(nombre.getText().length()==0){
             Toast.makeText(this, getResources().getString(R.string.nombreVacio), Toast.LENGTH_LONG).show();
         }else{
-            Intent intent = new Intent(this,EligeCuentoActivity.class);
+            Intent intent = new Intent(InicioActivity.this,EligeCuentoActivity.class);
             intent.putExtra("nombre",nombre.getText().toString());
             startActivity(intent);
-
         }
     }
 }

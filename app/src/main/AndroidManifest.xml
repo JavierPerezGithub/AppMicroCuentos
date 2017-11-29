@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EligeCuentoActivity"></activity>
+        <activity android:name=".EligeCuentoActivity" />
+        <activity android:name=".LeeCuentoActivity"></activity>
     </application>
 
 </manifest>
